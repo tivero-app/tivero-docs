@@ -50,12 +50,14 @@ In the **Exports** section, choose an export and click **Export**:
 Exports respect the selected range and filters. HR, Administrator and Owner can export.
 
 <Note>
-The **Requests export** and the **CSV export** can contain at most 50,000 requests. If the selected range and filters cover more requests, no file is created. Instead of a download, your browser shows the message **The report is too large: …**. Tivero never creates an incomplete file.
+The **Requests export** and the **CSV export** can contain at most 50,000 requests. If the selected range and filters cover more requests, no file is created. Instead of a download, your browser shows the message **The report is too large: …**, which tells you how to narrow the export. Tivero does not silently cut the export to the limit. If an error occurs while the export is being prepared, no file is created either.
 </Note>
 
 ## Troubleshooting
 
 **I see "The report is too large" instead of a file.** The selected range and filters cover more than 50,000 requests. Go back to **Reports**, narrow the **Range** or add filters (for example **Team** or **Request status**) and export again. If you need data for a longer period, export it in several parts.
+
+**The export does not match what the screen showed a moment ago.** An export shows the data as it is while the export is being prepared. If people submit, approve or cancel requests during that time, the result can differ from what you saw on the screen. Export again once the changes are finished.
 
 ## Related articles
 
